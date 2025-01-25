@@ -1,0 +1,6 @@
+﻿services:
+  permissionconcept:
+    image: permissionconcept
+    build:
+      context: .
+      dockerfile: PermissionConcept/Dockerfile

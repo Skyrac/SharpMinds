@@ -1,0 +1,14 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AGuard_002ENull_002Ecs_002Fl_003AC_0021_003FUsers_003FFabia_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E2_003Fresharper_002Dhost_003FSourcesCache_003F8776ccc61a57bd1b29fd19126a117f45c6f4a35323d4d9b31ee1694ed6d6_003FGuard_002ENull_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AIAsyncLifetime_002Ecs_002Fl_003AC_0021_003FUsers_003FFabia_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E2_003Fresharper_002Dhost_003FSourcesCache_003F113d80f4b95c179d4d85797d8a2f7c527e67c7752fa51cc335ee02c1d83d017_003FIAsyncLifetime_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=2e5e8187_002D526c_002D41e1_002Db548_002D4bcb461a0514/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from &amp;lt;Tests&amp;gt;\&amp;lt;SharpMinds.Unit.Tests&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;Project Location="D:\Sharp Minds\SharpMinds.Unit.Tests" Presentation="&amp;lt;Tests&amp;gt;\&amp;lt;SharpMinds.Unit.Tests&amp;gt;" /&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;xUnit::E85DF598-69D4-4747-BA15-766AB04AED69::net8.0::SharpMinds.Integration.Tests.RepositoryPatternTests.Test1&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::E85DF598-69D4-4747-BA15-766AB04AED69::net8.0::SharpMinds.Integration.Tests.RepositoryPatternTests&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::E85DF598-69D4-4747-BA15-766AB04AED69::net8.0::SharpMinds.Integration.Tests.SpecificationTests.Specification_Standalone&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::E85DF598-69D4-4747-BA15-766AB04AED69::net8.0::SharpMinds.Integration.Tests.SpecificationTests.SimpleWhere_Specification_Standalone&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+  &lt;/Or&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

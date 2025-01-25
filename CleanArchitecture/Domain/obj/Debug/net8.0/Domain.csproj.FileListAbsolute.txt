@@ -1,0 +1,11 @@
+D:\Sharp Minds\CleanArchitecture\Domain\bin\Debug\net8.0\Domain.deps.json
+D:\Sharp Minds\CleanArchitecture\Domain\bin\Debug\net8.0\Domain.dll
+D:\Sharp Minds\CleanArchitecture\Domain\bin\Debug\net8.0\Domain.pdb
+D:\Sharp Minds\CleanArchitecture\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sharp Minds\CleanArchitecture\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+D:\Sharp Minds\CleanArchitecture\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+D:\Sharp Minds\CleanArchitecture\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\Sharp Minds\CleanArchitecture\Domain\obj\Debug\net8.0\Domain.dll
+D:\Sharp Minds\CleanArchitecture\Domain\obj\Debug\net8.0\refint\Domain.dll
+D:\Sharp Minds\CleanArchitecture\Domain\obj\Debug\net8.0\Domain.pdb
+D:\Sharp Minds\CleanArchitecture\Domain\obj\Debug\net8.0\ref\Domain.dll
