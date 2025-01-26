@@ -29,3 +29,7 @@ D:\Sharp Minds\SharpMinds.SoftwarePattern\bin\Debug\net8.0\Npgsql.EntityFramewor
 D:\Sharp Minds\SharpMinds.SoftwarePattern\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
 D:\Sharp Minds\SharpMinds.SoftwarePattern\obj\Debug\net8.0\SharpMinds.SoftwarePattern.csproj.AssemblyReference.cache
 D:\Sharp Minds\SharpMinds.SoftwarePattern\obj\Debug\net8.0\SharpMin.AE5902B6.Up2Date
+D:\Sharp Minds\SharpMinds.SoftwarePattern\bin\Debug\net8.0\AutoMapper.dll
+D:\Sharp Minds\SharpMinds.SoftwarePattern\bin\Debug\net8.0\MediatR.dll
+D:\Sharp Minds\SharpMinds.SoftwarePattern\bin\Debug\net8.0\MediatR.Contracts.dll
+D:\Sharp Minds\SharpMinds.SoftwarePattern\obj\Debug\net8.0\SharpMinds.SoftwarePattern.sourcelink.json

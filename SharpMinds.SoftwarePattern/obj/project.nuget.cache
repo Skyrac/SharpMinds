@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Gnyb0mHITFo=",
+  "dgSpecHash": "uajSZiVodCc=",
   "success": true,
   "projectFilePath": "D:\\Sharp Minds\\SharpMinds.SoftwarePattern\\SharpMinds.SoftwarePattern.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Fabia\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\Fabia\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
+    "C:\\Users\\Fabia\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\Fabia\\.nuget\\packages\\microsoft.dotnet.ilcompiler\\8.0.10\\microsoft.dotnet.ilcompiler.8.0.10.nupkg.sha512",
     "C:\\Users\\Fabia\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.1\\microsoft.entityframeworkcore.9.0.1.nupkg.sha512",
     "C:\\Users\\Fabia\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.1\\microsoft.entityframeworkcore.abstractions.9.0.1.nupkg.sha512",

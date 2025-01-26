@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "JW4THTVla1w=",
+  "dgSpecHash": "VEZJOrZYfn0=",
   "success": true,
   "projectFilePath": "D:\\Sharp Minds\\SharpMinds.Integration.Tests\\SharpMinds.Integration.Tests.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Fabia\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Fabia\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\Fabia\\.nuget\\packages\\docker.dotnet.enhanced\\3.126.1\\docker.dotnet.enhanced.3.126.1.nupkg.sha512",
     "C:\\Users\\Fabia\\.nuget\\packages\\docker.dotnet.enhanced.x509\\3.126.1\\docker.dotnet.enhanced.x509.3.126.1.nupkg.sha512",
+    "C:\\Users\\Fabia\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
+    "C:\\Users\\Fabia\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\Fabia\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
     "C:\\Users\\Fabia\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.1\\microsoft.entityframeworkcore.9.0.1.nupkg.sha512",
     "C:\\Users\\Fabia\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.1\\microsoft.entityframeworkcore.abstractions.9.0.1.nupkg.sha512",

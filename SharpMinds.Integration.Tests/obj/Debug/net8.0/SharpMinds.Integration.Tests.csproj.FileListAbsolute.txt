@@ -125,3 +125,7 @@ D:\Sharp Minds\SharpMinds.Integration.Tests\obj\Debug\net8.0\refint\SharpMinds.I
 D:\Sharp Minds\SharpMinds.Integration.Tests\obj\Debug\net8.0\SharpMinds.Integration.Tests.pdb
 D:\Sharp Minds\SharpMinds.Integration.Tests\obj\Debug\net8.0\SharpMinds.Integration.Tests.genruntimeconfig.cache
 D:\Sharp Minds\SharpMinds.Integration.Tests\obj\Debug\net8.0\ref\SharpMinds.Integration.Tests.dll
+D:\Sharp Minds\SharpMinds.Integration.Tests\bin\Debug\net8.0\AutoMapper.dll
+D:\Sharp Minds\SharpMinds.Integration.Tests\bin\Debug\net8.0\MediatR.dll
+D:\Sharp Minds\SharpMinds.Integration.Tests\bin\Debug\net8.0\MediatR.Contracts.dll
+D:\Sharp Minds\SharpMinds.Integration.Tests\obj\Debug\net8.0\SharpMinds.Integration.Tests.sourcelink.json

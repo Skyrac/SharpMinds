@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SharpMinds.SoftwarePattern")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a5d2ce992410d543562bf2be6aa936a97cc01be7")]
 [assembly: System.Reflection.AssemblyProductAttribute("SharpMinds.SoftwarePattern")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SharpMinds.SoftwarePattern")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

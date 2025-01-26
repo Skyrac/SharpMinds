@@ -4,10 +4,10 @@ using SharpMinds.SoftwarePattern.Repository.Domain;
 using SharpMinds.SoftwarePattern.Repository.Specification.Orders;
 using SharpMinds.SoftwarePattern.Specification;
 
-namespace SharpMinds.Integration.Tests;
+namespace SharpMinds.Integration.Tests.RepositoryAndSpecification;
 
-[Collection(nameof(PostgresTestCollection))]
-public class SpecificationTests(PostgresTestDatabaseFixture fixture)
+[Collection(nameof(PostgresRepositoryTestCollection))]
+public class SpecificationTests(PostgresRepositoryTestDatabaseFixture fixture)
 {
     [Fact]
     public async Task Specification_With_Repository()
