@@ -33,3 +33,38 @@ D:\Sharp Minds\SharpMinds.SoftwarePattern\bin\Debug\net8.0\AutoMapper.dll
 D:\Sharp Minds\SharpMinds.SoftwarePattern\bin\Debug\net8.0\MediatR.dll
 D:\Sharp Minds\SharpMinds.SoftwarePattern\bin\Debug\net8.0\MediatR.Contracts.dll
 D:\Sharp Minds\SharpMinds.SoftwarePattern\obj\Debug\net8.0\SharpMinds.SoftwarePattern.sourcelink.json
+C:\Projekte\SharpMinds\SharpMinds.SoftwarePattern\bin\Debug\net8.0\SharpMinds.SoftwarePattern.exe
+C:\Projekte\SharpMinds\SharpMinds.SoftwarePattern\bin\Debug\net8.0\SharpMinds.SoftwarePattern.deps.json
+C:\Projekte\SharpMinds\SharpMinds.SoftwarePattern\bin\Debug\net8.0\SharpMinds.SoftwarePattern.runtimeconfig.json
+C:\Projekte\SharpMinds\SharpMinds.SoftwarePattern\bin\Debug\net8.0\SharpMinds.SoftwarePattern.dll
+C:\Projekte\SharpMinds\SharpMinds.SoftwarePattern\bin\Debug\net8.0\SharpMinds.SoftwarePattern.pdb
+C:\Projekte\SharpMinds\SharpMinds.SoftwarePattern\bin\Debug\net8.0\AutoMapper.dll
+C:\Projekte\SharpMinds\SharpMinds.SoftwarePattern\bin\Debug\net8.0\MediatR.dll
+C:\Projekte\SharpMinds\SharpMinds.SoftwarePattern\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\Projekte\SharpMinds\SharpMinds.SoftwarePattern\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Projekte\SharpMinds\SharpMinds.SoftwarePattern\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Projekte\SharpMinds\SharpMinds.SoftwarePattern\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Projekte\SharpMinds\SharpMinds.SoftwarePattern\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Projekte\SharpMinds\SharpMinds.SoftwarePattern\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Projekte\SharpMinds\SharpMinds.SoftwarePattern\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Projekte\SharpMinds\SharpMinds.SoftwarePattern\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Projekte\SharpMinds\SharpMinds.SoftwarePattern\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Projekte\SharpMinds\SharpMinds.SoftwarePattern\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Projekte\SharpMinds\SharpMinds.SoftwarePattern\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Projekte\SharpMinds\SharpMinds.SoftwarePattern\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Projekte\SharpMinds\SharpMinds.SoftwarePattern\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Projekte\SharpMinds\SharpMinds.SoftwarePattern\bin\Debug\net8.0\Npgsql.dll
+C:\Projekte\SharpMinds\SharpMinds.SoftwarePattern\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Projekte\SharpMinds\SharpMinds.SoftwarePattern\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Projekte\SharpMinds\SharpMinds.SoftwarePattern\obj\Debug\net8.0\SharpMinds.SoftwarePattern.csproj.AssemblyReference.cache
+C:\Projekte\SharpMinds\SharpMinds.SoftwarePattern\obj\Debug\net8.0\SharpMinds.SoftwarePattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projekte\SharpMinds\SharpMinds.SoftwarePattern\obj\Debug\net8.0\SharpMinds.SoftwarePattern.AssemblyInfoInputs.cache
+C:\Projekte\SharpMinds\SharpMinds.SoftwarePattern\obj\Debug\net8.0\SharpMinds.SoftwarePattern.AssemblyInfo.cs
+C:\Projekte\SharpMinds\SharpMinds.SoftwarePattern\obj\Debug\net8.0\SharpMinds.SoftwarePattern.csproj.CoreCompileInputs.cache
+C:\Projekte\SharpMinds\SharpMinds.SoftwarePattern\obj\Debug\net8.0\SharpMinds.SoftwarePattern.sourcelink.json
+C:\Projekte\SharpMinds\SharpMinds.SoftwarePattern\obj\Debug\net8.0\SharpMinds.SoftwarePattern.csproj.CopyComplete
+C:\Projekte\SharpMinds\SharpMinds.SoftwarePattern\obj\Debug\net8.0\SharpMinds.SoftwarePattern.dll
+C:\Projekte\SharpMinds\SharpMinds.SoftwarePattern\obj\Debug\net8.0\refint\SharpMinds.SoftwarePattern.dll
+C:\Projekte\SharpMinds\SharpMinds.SoftwarePattern\obj\Debug\net8.0\SharpMinds.SoftwarePattern.pdb
+C:\Projekte\SharpMinds\SharpMinds.SoftwarePattern\obj\Debug\net8.0\SharpMinds.SoftwarePattern.genruntimeconfig.cache
+C:\Projekte\SharpMinds\SharpMinds.SoftwarePattern\obj\Debug\net8.0\ref\SharpMinds.SoftwarePattern.dll

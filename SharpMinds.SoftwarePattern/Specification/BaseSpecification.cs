@@ -7,44 +7,39 @@ public class BaseSpecification<T> : ISpecification<T>
 {
     public Expression<Func<T, bool>> Criteria { get; protected set; }
 
-    public List<Func<IQueryable<T>, IIncludableQueryable<T, object>>> IncludeExpressions { get; }
-        = new List<Func<IQueryable<T>, IIncludableQueryable<T, object>>>();
+    List<Func<IQueryable<T>, IIncludableQueryable<T, object>>> IncludeExpressions { get; }
+        = new ();
 
     public Expression<Func<T, object>> OrderBy { get; set; }
     public Expression<Func<T, object>> OrderByDescending { get; set; }
-    public int Take { get; set; }
-    public int Skip { get; set; }
-    public bool IsPagingEnabled { get; set; }
 
     protected BaseSpecification()
     {
     }
 
-    protected BaseSpecification(Expression<Func<T, bool>> criteria)
+    public Func<IQueryable<T>, IIncludableQueryable<T, object>>[] GetIncludes()
     {
-        Criteria = criteria;
+        return IncludeExpressions.ToArray();
     }
 
-    public static BaseSpecification<T> Create(Expression<Func<T, bool>> criteria)
+    public static BaseSpecification<T> Create()
     {
-        return new BaseSpecification<T>(criteria);
+        return new BaseSpecification<T>();
     }
 
-    public BaseSpecification<T> AddInclude(Func<IQueryable<T>, IIncludableQueryable<T, object>> includeExpression)
+    protected BaseSpecification<T> AddInclude(Func<IQueryable<T>, IIncludableQueryable<T, object>> includeExpression)
     {
         IncludeExpressions.Add(includeExpression);
         return this;
     }
-
-    public BaseSpecification<T> ApplyPaging(int skip, int take)
+    
+    public BaseSpecification<T> ApplyCriteria(Expression<Func<T, bool>> criteria)
     {
-        Skip = skip;
-        Take = take;
-        IsPagingEnabled = true;
+        Criteria = criteria;
         return this;
     }
-
-    public BaseSpecification<T> ApplyOrderBy(Expression<Func<T, object>> orderByExpression)
+    
+    public BaseSpecification<T> ApplyOrder(Expression<Func<T, object>> orderByExpression)
     {
         OrderBy = orderByExpression;
         return this;

@@ -3,13 +3,12 @@ using SharpMinds.SoftwarePattern.Specification;
 
 namespace SharpMinds.SoftwarePattern.Repository;
 
-public interface IGenericRepository<TEntity, TDbContext> 
+public interface IGenericRepository<TEntity> 
     where TEntity : class 
-    where TDbContext : DbContext
 {
-    Task<TEntity?> GetByIdAsync(object? id);
     Task<List<TEntity>> ListAllAsync();
-    Task<List<TEntity>> ListAsync(ISpecification<TEntity> spec);
+    Task<List<TEntity>> BySpecification(ISpecification<TEntity> spec);
+    Task<Page<TEntity>> BySpecificationPaged(ISpecification<TEntity> spec, int page = 1, int pageSize = 50);
 
     /// <inheritdoc cref="DbContext.Add(TEntity)"/>
     TEntity Add(TEntity entity);

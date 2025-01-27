@@ -12,7 +12,7 @@ public class SpecificationTests(PostgresRepositoryTestDatabaseFixture fixture)
     [Fact]
     public async Task Specification_With_Repository()
     {
-        var repo = fixture.ServiceProvider.GetRequiredService<IGenericRepository<Order, RepositoryDbContext>>();
+        var repo = fixture.ServiceProvider.GetRequiredService<IGenericRepository<Order>>();
         repo.Add(new Order()
         {
             Id = 1,
@@ -32,7 +32,12 @@ public class SpecificationTests(PostgresRepositoryTestDatabaseFixture fixture)
             }
         });
         await repo.SaveChangesAsync();
-        var result = await repo.ListAsync(new OrdersWithItemsAndProductSpec());
+        var result = await repo.BySpecification(new OrdersWithItemsAndProductSpec());
+        
+        Assert.NotEmpty(result);
+
+        result = await repo.BySpecification(BaseSpecification<Order>.Create()
+            .ApplyCriteria(x => x.Id > 0));
         
         Assert.NotEmpty(result);
     }
@@ -109,8 +114,7 @@ public class SpecificationTests(PostgresRepositoryTestDatabaseFixture fixture)
         ]);
         await db.SaveChangesAsync();
         var result = await db.FromSpecificationAsync(
-            BaseSpecification<Order>.Create(x => x.OrderNumber == "Test")
-                .ApplyPaging(0, 1)
+            BaseSpecification<Order>.Create()
         );
         
         Assert.NotEmpty(result);

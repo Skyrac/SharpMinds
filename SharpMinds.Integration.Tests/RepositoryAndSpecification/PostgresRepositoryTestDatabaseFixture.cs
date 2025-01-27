@@ -28,7 +28,7 @@ public class PostgresRepositoryTestDatabaseFixture : IAsyncLifetime
         serviceCollection.AddDbContext<RepositoryDbContext>(options =>
             options.UseNpgsql(_container.GetConnectionString()));
 
-        serviceCollection.AddScoped(typeof(IGenericRepository<,>), typeof(GenericRepository<,>));
+        serviceCollection.AddScoped(typeof(IGenericRepository<>), typeof(Repository<>));
 
         ServiceProvider = serviceCollection.BuildServiceProvider();
 
