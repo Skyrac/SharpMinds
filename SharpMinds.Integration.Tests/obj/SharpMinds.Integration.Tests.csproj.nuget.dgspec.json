@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Sharp Minds\\SharpMinds.Integration.Tests\\SharpMinds.Integration.Tests.csproj": {}
+    "C:\\Projekte\\SharpMinds\\SharpMinds.Integration.Tests\\SharpMinds.Integration.Tests.csproj": {}
   },
   "projects": {
-    "D:\\Sharp Minds\\SharpMinds.Integration.Tests\\SharpMinds.Integration.Tests.csproj": {
+    "C:\\Projekte\\SharpMinds\\SharpMinds.Integration.Tests\\SharpMinds.Integration.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Sharp Minds\\SharpMinds.Integration.Tests\\SharpMinds.Integration.Tests.csproj",
+        "projectUniqueName": "C:\\Projekte\\SharpMinds\\SharpMinds.Integration.Tests\\SharpMinds.Integration.Tests.csproj",
         "projectName": "SharpMinds.Integration.Tests",
-        "projectPath": "D:\\Sharp Minds\\SharpMinds.Integration.Tests\\SharpMinds.Integration.Tests.csproj",
-        "packagesPath": "C:\\Users\\Fabia\\.nuget\\packages\\",
-        "outputPath": "D:\\Sharp Minds\\SharpMinds.Integration.Tests\\obj\\",
+        "projectPath": "C:\\Projekte\\SharpMinds\\SharpMinds.Integration.Tests\\SharpMinds.Integration.Tests.csproj",
+        "packagesPath": "C:\\Users\\FabianReichenberg\\.nuget\\packages\\",
+        "outputPath": "C:\\Projekte\\SharpMinds\\SharpMinds.Integration.Tests\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Fabia\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\FabianReichenberg\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,15 +22,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Sharp Minds\\SharpMinds.SoftwarePattern\\SharpMinds.SoftwarePattern.csproj": {
-                "projectPath": "D:\\Sharp Minds\\SharpMinds.SoftwarePattern\\SharpMinds.SoftwarePattern.csproj"
+              "C:\\Projekte\\SharpMinds\\SharpMinds.SoftwarePattern\\SharpMinds.SoftwarePattern.csproj": {
+                "projectPath": "C:\\Projekte\\SharpMinds\\SharpMinds.SoftwarePattern\\SharpMinds.SoftwarePattern.csproj"
               }
             }
           }
@@ -43,11 +38,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "all"
         }
       },
       "frameworks": {
@@ -103,25 +93,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.112/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Sharp Minds\\SharpMinds.SoftwarePattern\\SharpMinds.SoftwarePattern.csproj": {
+    "C:\\Projekte\\SharpMinds\\SharpMinds.SoftwarePattern\\SharpMinds.SoftwarePattern.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Sharp Minds\\SharpMinds.SoftwarePattern\\SharpMinds.SoftwarePattern.csproj",
+        "projectUniqueName": "C:\\Projekte\\SharpMinds\\SharpMinds.SoftwarePattern\\SharpMinds.SoftwarePattern.csproj",
         "projectName": "SharpMinds.SoftwarePattern",
-        "projectPath": "D:\\Sharp Minds\\SharpMinds.SoftwarePattern\\SharpMinds.SoftwarePattern.csproj",
-        "packagesPath": "C:\\Users\\Fabia\\.nuget\\packages\\",
-        "outputPath": "D:\\Sharp Minds\\SharpMinds.SoftwarePattern\\obj\\",
+        "projectPath": "C:\\Projekte\\SharpMinds\\SharpMinds.SoftwarePattern\\SharpMinds.SoftwarePattern.csproj",
+        "packagesPath": "C:\\Users\\FabianReichenberg\\.nuget\\packages\\",
+        "outputPath": "C:\\Projekte\\SharpMinds\\SharpMinds.SoftwarePattern\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Fabia\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\FabianReichenberg\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -129,7 +115,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -142,11 +127,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "all"
         }
       },
       "frameworks": {
@@ -164,7 +144,7 @@
             "Microsoft.DotNet.ILCompiler": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.10, )",
+              "version": "[8.0.12, )",
               "autoReferenced": true
             },
             "Microsoft.EntityFrameworkCore": {
@@ -174,7 +154,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.10, )",
+              "version": "[8.0.12, )",
               "autoReferenced": true
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
@@ -196,7 +176,7 @@
           "downloadDependencies": [
             {
               "name": "runtime.win-x64.Microsoft.DotNet.ILCompiler",
-              "version": "[8.0.10, 8.0.10]"
+              "version": "[8.0.12, 8.0.12]"
             }
           ],
           "frameworkReferences": {
@@ -204,7 +184,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.112/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

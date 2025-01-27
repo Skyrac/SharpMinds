@@ -57,7 +57,7 @@
           }
         }
       },
-      "Microsoft.DotNet.ILCompiler/8.0.10": {
+      "Microsoft.DotNet.ILCompiler/8.0.12": {
         "type": "package",
         "build": {
           "build/Microsoft.DotNet.ILCompiler.props": {}
@@ -293,7 +293,7 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.10": {
+      "Microsoft.NET.ILLink.Tasks/8.0.12": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -634,10 +634,10 @@
         "mediatr.contracts.nuspec"
       ]
     },
-    "Microsoft.DotNet.ILCompiler/8.0.10": {
-      "sha512": "iThS5LNCcLlFkUlnxCJMgMSQ6s1BgbZo9ri11DDgNxDn8StwgFVUQJ8O5N/7S037jcS1md8tWp7Zu2YconIlag==",
+    "Microsoft.DotNet.ILCompiler/8.0.12": {
+      "sha512": "zhXnz2574mBc/ocGoG+qB0BgyoK9bH7f7Te1fNQJGbpwLLwZO5KKaTBmfM8N8THb3a2vQVFonbBzQ//d15TmQQ==",
       "type": "package",
-      "path": "microsoft.dotnet.ilcompiler/8.0.10",
+      "path": "microsoft.dotnet.ilcompiler/8.0.12",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -656,7 +656,7 @@
         "build/NativeAOT.natvis",
         "build/WindowsAPIs.txt",
         "build/findvcvarsall.bat",
-        "microsoft.dotnet.ilcompiler.8.0.10.nupkg.sha512",
+        "microsoft.dotnet.ilcompiler.8.0.12.nupkg.sha512",
         "microsoft.dotnet.ilcompiler.nuspec",
         "runtime.json",
         "tools/netstandard/ILCompiler.Build.Tasks.deps.json",
@@ -1042,10 +1042,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.NET.ILLink.Tasks/8.0.10": {
-      "sha512": "xT8jYjlroY7SLbGtoV9vUTVW/TPgodL4Egc31a444Xe0TMytLZ3UlKQ0kxMZsy/CrWsFB6wtKnSG1SsXcWreew==",
+    "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "sha512": "FV4HnQ3JI15PHnJ5PGTbz+rYvrih42oLi/7UMIshNwCwUZhTq13UzrggtXk4ygrcMcN+4jsS6hhshx2p/Zd0ig==",
       "type": "package",
-      "path": "microsoft.net.illink.tasks/8.0.10",
+      "path": "microsoft.net.illink.tasks/8.0.12",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -1059,7 +1059,7 @@
         "build/Microsoft.NET.ILLink.Analyzers.props",
         "build/Microsoft.NET.ILLink.Tasks.props",
         "build/Microsoft.NET.ILLink.targets",
-        "microsoft.net.illink.tasks.8.0.10.nupkg.sha512",
+        "microsoft.net.illink.tasks.8.0.12.nupkg.sha512",
         "microsoft.net.illink.tasks.nuspec",
         "tools/net472/ILLink.Tasks.dll",
         "tools/net472/ILLink.Tasks.dll.config",
@@ -1429,31 +1429,26 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Microsoft.DotNet.ILCompiler >= 8.0.10",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.10",
+      "Microsoft.DotNet.ILCompiler >= 8.0.12",
+      "Microsoft.NET.ILLink.Tasks >= 8.0.12",
       "SharpMinds.SoftwarePattern >= 1.0.0",
       "TUnit >= 0.2.195"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Fabia\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\FabianReichenberg\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Sharp Minds\\SharpMinds.Unit.Tests\\SharpMinds.Unit.Tests.csproj",
+      "projectUniqueName": "C:\\Projekte\\SharpMinds\\SharpMinds.Unit.Tests\\SharpMinds.Unit.Tests.csproj",
       "projectName": "SharpMinds.Unit.Tests",
-      "projectPath": "D:\\Sharp Minds\\SharpMinds.Unit.Tests\\SharpMinds.Unit.Tests.csproj",
-      "packagesPath": "C:\\Users\\Fabia\\.nuget\\packages\\",
-      "outputPath": "D:\\Sharp Minds\\SharpMinds.Unit.Tests\\obj\\",
+      "projectPath": "C:\\Projekte\\SharpMinds\\SharpMinds.Unit.Tests\\SharpMinds.Unit.Tests.csproj",
+      "packagesPath": "C:\\Users\\FabianReichenberg\\.nuget\\packages\\",
+      "outputPath": "C:\\Projekte\\SharpMinds\\SharpMinds.Unit.Tests\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Fabia\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\FabianReichenberg\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1461,15 +1456,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Sharp Minds\\SharpMinds.SoftwarePattern\\SharpMinds.SoftwarePattern.csproj": {
-              "projectPath": "D:\\Sharp Minds\\SharpMinds.SoftwarePattern\\SharpMinds.SoftwarePattern.csproj"
+            "C:\\Projekte\\SharpMinds\\SharpMinds.SoftwarePattern\\SharpMinds.SoftwarePattern.csproj": {
+              "projectPath": "C:\\Projekte\\SharpMinds\\SharpMinds.SoftwarePattern\\SharpMinds.SoftwarePattern.csproj"
             }
           }
         }
@@ -1478,11 +1472,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "all"
       }
     },
     "frameworks": {
@@ -1492,13 +1481,13 @@
           "Microsoft.DotNet.ILCompiler": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.10, )",
+            "version": "[8.0.12, )",
             "autoReferenced": true
           },
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.10, )",
+            "version": "[8.0.12, )",
             "autoReferenced": true
           },
           "TUnit": {
@@ -1520,7 +1509,7 @@
         "downloadDependencies": [
           {
             "name": "runtime.win-x64.Microsoft.DotNet.ILCompiler",
-            "version": "[8.0.10, 8.0.10]"
+            "version": "[8.0.12, 8.0.12]"
           }
         ],
         "frameworkReferences": {
@@ -1528,7 +1517,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.112/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
