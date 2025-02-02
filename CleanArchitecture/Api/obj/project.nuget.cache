@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "wpF2mxojpNg=",
+  "dgSpecHash": "YLc5HPqKDGE=",
   "success": true,
-  "projectFilePath": "C:\\Projekte\\SharpMinds\\CleanArchitecture\\Api\\Api.csproj",
+  "projectFilePath": "D:\\Sharp Minds\\CleanArchitecture\\Api\\Api.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\FabianReichenberg\\.nuget\\packages\\microsoft.dotnet.ilcompiler\\8.0.12\\microsoft.dotnet.ilcompiler.8.0.12.nupkg.sha512",
-    "C:\\Users\\FabianReichenberg\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.12\\microsoft.net.illink.tasks.8.0.12.nupkg.sha512",
-    "C:\\Users\\FabianReichenberg\\.nuget\\packages\\runtime.win-x64.microsoft.dotnet.ilcompiler\\8.0.12\\runtime.win-x64.microsoft.dotnet.ilcompiler.8.0.12.nupkg.sha512"
+    "C:\\Users\\Fabia\\.nuget\\packages\\microsoft.dotnet.ilcompiler\\8.0.10\\microsoft.dotnet.ilcompiler.8.0.10.nupkg.sha512",
+    "C:\\Users\\Fabia\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.10\\microsoft.net.illink.tasks.8.0.10.nupkg.sha512",
+    "C:\\Users\\Fabia\\.nuget\\packages\\runtime.win-x64.microsoft.dotnet.ilcompiler\\8.0.10\\runtime.win-x64.microsoft.dotnet.ilcompiler.8.0.10.nupkg.sha512"
   ],
   "logs": []
 }
