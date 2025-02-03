@@ -4,17 +4,18 @@ using SharpMinds.SoftwarePattern.Specification;
 namespace SharpMinds.SoftwarePattern.Repository;
 
 public interface IGenericRepository<TEntity> 
-    where TEntity : class 
+    where TEntity : class
 {
+    ValueTask<TEntity?> GetByIdAsync(object? id);
     Task<List<TEntity>> ListAllAsync();
-    Task<List<TEntity>> BySpecification(ISpecification<TEntity> spec);
-    Task<Page<TEntity>> BySpecificationPaged(ISpecification<TEntity> spec, int page = 1, int pageSize = 50);
+    Task<List<TEntity>> QueryBySpecification(ISpecification<TEntity> spec);
+    Task<Page<TEntity>> QueryBySpecificationPaged(ISpecification<TEntity> spec, int page = 1, int pageSize = 50);
 
     /// <inheritdoc cref="DbContext.Add(TEntity)"/>
-    TEntity Add(TEntity entity);
+    Task Add(params TEntity[] entity);
     
     /// <inheritdoc cref="DbContext.Update(TEntity)"/>
-    void Update(TEntity entity);
-    void Remove(TEntity entity);
+    void Update(params TEntity[] entity);
+    void Remove(params TEntity[] entity);
     Task SaveChangesAsync(CancellationToken cancellationToken = default);
 }

@@ -32,11 +32,11 @@ public class SpecificationTests(PostgresRepositoryTestDatabaseFixture fixture)
             }
         });
         await repo.SaveChangesAsync();
-        var result = await repo.BySpecification(new OrdersWithItemsAndProductSpec());
+        var result = await repo.QueryBySpecification(new OrdersWithItemsAndProductSpec());
         
         Assert.NotEmpty(result);
 
-        result = await repo.BySpecification(BaseSpecification<Order>.Create()
+        result = await repo.QueryBySpecification(BaseSpecification<Order>.Create()
             .ApplyCriteria(x => x.Id > 0));
         
         Assert.NotEmpty(result);

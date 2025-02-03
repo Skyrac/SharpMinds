@@ -8,8 +8,6 @@ public class OrdersWithItemsAndProductSpec : BaseSpecification<Order>
 {
     public OrdersWithItemsAndProductSpec()
     {
-        Criteria = o => o.Id > 0;
-        
         AddInclude(OrderNavigations.WithItemsAndProduct);
     }
 }

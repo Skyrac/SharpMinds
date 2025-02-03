@@ -5,13 +5,13 @@ namespace SharpMinds.SoftwarePattern.Specification;
 
 public class BaseSpecification<T> : ISpecification<T>
 {
-    public Expression<Func<T, bool>> Criteria { get; protected set; }
+    public Expression<Func<T, bool>>? Criteria { get; protected set; }
 
     List<Func<IQueryable<T>, IIncludableQueryable<T, object>>> IncludeExpressions { get; }
         = new ();
 
-    public Expression<Func<T, object>> OrderBy { get; set; }
-    public Expression<Func<T, object>> OrderByDescending { get; set; }
+    public Expression<Func<T, object>>? OrderBy { get; private set; }
+    public bool? OrderAscending { get; private set; }
 
     protected BaseSpecification()
     {
@@ -27,10 +27,9 @@ public class BaseSpecification<T> : ISpecification<T>
         return new BaseSpecification<T>();
     }
 
-    protected BaseSpecification<T> AddInclude(Func<IQueryable<T>, IIncludableQueryable<T, object>> includeExpression)
+    protected void AddInclude(Func<IQueryable<T>, IIncludableQueryable<T, object>> includeExpression)
     {
         IncludeExpressions.Add(includeExpression);
-        return this;
     }
     
     public BaseSpecification<T> ApplyCriteria(Expression<Func<T, bool>> criteria)
@@ -39,15 +38,12 @@ public class BaseSpecification<T> : ISpecification<T>
         return this;
     }
     
-    public BaseSpecification<T> ApplyOrder(Expression<Func<T, object>> orderByExpression)
+    public BaseSpecification<T> ApplyOrder(
+        bool isAscending, 
+        Expression<Func<T, object>>? orderByExpression = null)
     {
         OrderBy = orderByExpression;
-        return this;
-    }
-
-    public BaseSpecification<T> ApplyOrderByDescending(Expression<Func<T, object>> orderByDescExpression)
-    {
-        OrderByDescending = orderByDescExpression;
+        OrderAscending = isAscending;
         return this;
     }
 }

@@ -10,19 +10,32 @@ public static class SpecificationEvaluator<T> where T : class
         {
             query = query.Where(spec.Criteria);
         }
-        
-        foreach (var includeExpression in spec.GetIncludes())
-        {
-            query = includeExpression(query);
-        }
 
-        if (spec.OrderBy != null)
+        query = spec.GetIncludes()
+            .Aggregate(query, 
+                (current, includeExpression) => includeExpression(current));
+
+        query = AddSorting(spec, query);
+
+        return query;
+    }
+
+    private static IQueryable<T> AddSorting(ISpecification<T> spec, IQueryable<T> query)
+    {
+        if (!spec.OrderAscending.HasValue) 
+            return query;
+        
+        if (spec.OrderBy == null)
         {
-            query = query.OrderBy(spec.OrderBy);
+            query = spec.OrderAscending.Value 
+                ? query.Order() 
+                : query.OrderDescending();
         }
-        else if (spec.OrderByDescending != null)
+        else
         {
-            query = query.OrderByDescending(spec.OrderByDescending);
+            query = spec.OrderAscending.Value 
+                ? query.OrderBy(spec.OrderBy) 
+                : query.OrderByDescending(spec.OrderBy);
         }
 
         return query;

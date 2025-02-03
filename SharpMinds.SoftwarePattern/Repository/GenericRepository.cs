@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
 using SharpMinds.SoftwarePattern.Specification;
 
 namespace SharpMinds.SoftwarePattern.Repository;
@@ -7,25 +8,53 @@ public class GenericRepository<TEntity, TDbContext>(TDbContext context) : IGener
     where TEntity : class
     where TDbContext : DbContext
 {
-    public async Task<TEntity?> GetByIdAsync(object? id)
+    private readonly DbSet<TEntity> _dbSet = context.Set<TEntity>();
+    public ValueTask<TEntity?> GetByIdAsync(object? id)
     {
-        return await context.Set<TEntity>().FindAsync(id);
+        return _dbSet.FindAsync(id);
     }
 
     public async Task<List<TEntity>> ListAllAsync()
     {
-        return await context.Set<TEntity>().AsNoTracking().ToListAsync();
+        return await _dbSet
+            .AsNoTracking()
+            .ToListAsync();
     }
-
-    public async Task<List<TEntity>> BySpecification(ISpecification<TEntity> spec)
+    
+    public async Task<List<TEntity>> QueryBySpecification(ISpecification<TEntity> spec)
     {
         var query = ApplySpecification(spec);
         return await query.AsNoTracking().ToListAsync();
     }
 
-    public async Task<Page<TEntity>> BySpecificationPaged(ISpecification<TEntity> spec, int page = 1, int pageSize = 50)
+    public Task<Page<TEntity>> QueryBySpecificationPaged(ISpecification<TEntity> spec, int page = 1, int pageSize = 50)
     {
         var query = ApplySpecification(spec);
+        return GetPaged(query, page, pageSize);
+    }
+
+    public Task Add(params TEntity[] entities)
+    {
+        return _dbSet.AddRangeAsync(entities);
+    }
+    
+    public void Update(params TEntity[] entity)
+    {
+        _dbSet.UpdateRange(entity);
+    }
+
+    public void Remove(params TEntity[] entity)
+    {
+        _dbSet.RemoveRange(entity);
+    }
+    
+    public Task SaveChangesAsync(CancellationToken cancellationToken)
+    {
+        return context.SaveChangesAsync(cancellationToken);
+    }
+    
+    private async Task<Page<TEntity>> GetPaged(IQueryable<TEntity> query, int page, int pageSize)
+    {
         var count = await query.CountAsync();
         var results = await query
             .AsNoTracking()
@@ -36,29 +65,8 @@ public class GenericRepository<TEntity, TDbContext>(TDbContext context) : IGener
         return new Page<TEntity>(page, Math.Min(pages, page + 1),pages,pageSize,count, results);
     }
 
-    public TEntity Add(TEntity entity)
-    {
-        context.Add(entity);
-        return entity;
-    }
-    
-    public void Update(TEntity entity)
-    {
-        context.Update(entity);
-    }
-
-    public void Remove(TEntity entity)
-    {
-        context.Remove(entity);
-    }
-    
-    public async Task SaveChangesAsync(CancellationToken cancellationToken)
-    {
-        await context.SaveChangesAsync(cancellationToken);
-    }
-
     private IQueryable<TEntity> ApplySpecification(ISpecification<TEntity> spec)
     {
-        return SpecificationEvaluator<TEntity>.GetQuery(context.Set<TEntity>().AsQueryable(), spec);
+        return SpecificationEvaluator<TEntity>.GetQuery(_dbSet.AsQueryable(), spec);
     }
 }
